@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section .logo {
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.hero-image {
+    width: 100px;
+    margin: 0 auto 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.reservation-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reservation-form select, 
+.reservation-form input, 
+.reservation-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #555;
+}
+
+/* Content Section */
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.intro-text {
+    margin-bottom: 40px;
+}
+
+.intro-text button {
+    padding: 10px 20px;
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.intro-text button:hover {
+    background: #555;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.history-section {
+    padding: 20px;
+}
+
+.history-section button {
+    padding: 10px 20px;
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.history-section button:hover {
+    background: #555;
+}
+
+/* Footer Section */
+.footer {
+    background: #222;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
